@@ -25,14 +25,16 @@ darksky
         console.log(
             'Feels Like: ' + Math.round(currently.apparentTemperature) + '°F'
         );
-        console.log('Chance of Rain: ' + currently.precipProbability + '%');
+        console.log(
+            'Chance of Rain: ' + currently.precipProbability * 100 + '%'
+        );
 
         // Today
         console.log('\nTODAY\n-----');
         console.log(data.hourly.summary);
         console.log('Low: ' + Math.round(today.temperatureLow) + '°F');
         console.log('High: ' + Math.round(today.temperatureHigh) + '°F');
-        console.log('Chance of Rain: ' + today.precipProbability + '%');
+        console.log('Chance of Rain: ' + today.precipProbability * 100 + '%');
 
         // This Week
         console.log('\nTHIS WEEK\n---------');
