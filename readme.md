@@ -2,6 +2,27 @@
 
 My personal command line utility for pulling up Dark Sky's weather via the API.
 
+## Sample Output:
+```sh
+CURRENTLY
+---------
+Heavy Rain
+Temperature: 66°F
+Feels Like: 66°F
+Chance of Rain: 100%
+
+TODAY
+-----
+Mostly cloudy throughout the day.
+Low: 65°F
+High: 67°F
+Chance of Rain: 74%
+
+THIS WEEK
+---------
+Light rain throughout the week, with high temperatures peaking at 87°F on Saturday.
+```
+
 ## To use:
 
 ### Register for the Dark Sky API
