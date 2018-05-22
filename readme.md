@@ -1,6 +1,6 @@
 # Dark Sky CLU (Command Line Utility)
 
-## My personal command line utility for accessing the dark sky's weather API.
+My personal command line utility for pulling up Dark Sky's weather via the API.
 
 ## To use:
 
